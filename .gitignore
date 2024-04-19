@@ -5,6 +5,9 @@
 /public/index.html
 /public/assets
 
+/web/public/index.html
+/web/public/assets
+
 # 通过 Git 部署项目至线上时可以考虑删除的忽略规则
 /public/storage/*
 composer.lock
@@ -45,3 +48,6 @@ pnpm-debug.log*
 *.local
 !.gitkeep
 .svn
+
+.env
+.env-example
